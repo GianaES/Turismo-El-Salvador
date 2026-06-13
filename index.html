@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo El Salvador</title>
+    <link class="flex" rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Turismo en El Salvador</h1>
+        <p>El Salvador, conocido como la "Tierra de los Volcanes", es un destino emergente destacado en Centroamérica por sus playas para surf, volcanes activos y el centro histórico de San Salvador. Con un gran crecimiento turístico, ofrece seguridad, clima cálido y distancias cortas para explorar el Parque Nacional Cerro Verde, el Lago Coatepeque y la Ruta de las Flores.</p>
+        
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#experiencias">Experiencias</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio">
+            <h2>Bienvenido a tu próxima aventura</h2>
+            <p>Busca lo que te interesa sobre este hermoso país y planifica un viaje inolvidable.</p>
+            
+            <img src="img/banner-el-salvador.jpg" alt="Paisaje principal de El Salvador" width="100%">
+        </section>
+
+        <hr>
+
+        <section id="destinos">
+            <h2>Destinos Imperdibles</h2>
+            <p>Explora los lugares más emblemáticos y llenos de magia.</p>
+            
+            <article class="destino-card">
+                <h3>Lago de Coatepeque</h3>
+                <p>Un hermoso lago de origen volcánico ideal para practicar deportes acuáticos y disfrutar de la gastronomía local.</p>
+                <img src="img/lago-coatepeque.jpg" alt="Vista panorámica del Lago de Coatepeque" width="400">
+            </article>
+
+            <article class="destino-card">
+                <h3>Parque Nacional El Boquerón</h3>
+                <p>Camina cerca del impresionante cráter de un volcán activo y disfruta de un clima fresco de montaña.</p>
+                <img src="img/el-boqueron.jpg" alt="Cráter del volcán El Boquerón" width="400">
+            </article>
+
+            <article class="destino-card">
+                <h3>Ruta de las Flores</h3>
+                <p>Un recorrido pintoresco por pueblos coloniales llenos de cultura, artesanías, cafetales y clima templado.</p>
+                <img src="img/ruta-de-las-flores.jpg" alt="Pueblo colorido en la Ruta de las Flores" width="400">
+            </article>
+
+            <article class="destino-card">
+                <h3>Playa El Tunco</h3>
+                <p>Famosa a nivel mundial por sus excelentes olas para el surf, su ambiente nocturno y sus espectaculares atardeceres.</p>
+                <img src="img/playa-el-tunco.jpg" alt="Atardecer en la playa El Tunco con surfistas" width="400">
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="ofertas">
+            <h2>Ofertas Especiales</h2>
+            <ul>
+                <li><strong>Tour de Volcanes:</strong> 20% de descuento reservando esta semana.</li>
+                <li><strong>Fin de semana en el Tunco:</strong> Hospedaje + clases de Surf incluidas.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="experiencias">
+            <h2>Experiencias de Viajeros</h2>
+            <blockquote>
+                <p>"La comida es increíble, especialmente las pupusas, y la gente es sumamente amable. ¡Volveré pronto!"</p>
+                <cite>— Carlos M., México</cite>
+            </blockquote>
+        </section>
+
+        <hr>
+
+        <section id="opinion">
+            <h2>Déjanos tu opinión</h2>
+            <p>¿Has visitado El Salvador o te gustaría ir? Cuéntanos qué piensas de este destino.</p>
+            
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div>
+                    <label for="calificacion">¿Cómo calificarías este destino?</label>
+                    <select id="calificacion" name="calificacion">
+                        <option value="excelente">Excelente</option>
+                        <option value="bueno">Bueno</option>
+                        <option value="regular">Regular</option>
+                        <option value="malo">Malo</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comentarios">Tu opinión:</label>
+                    <textarea id="comentarios" name="comentarios" rows="5" placeholder="Escribe aquí tus comentarios sobre El Salvador..." required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar opinión</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Turismo El Salvador - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
